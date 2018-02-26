@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<style>
+		 td {
+		 	width: 100px;
+		 	height: 100px;
+		 }
+
+		 .left-right {
+		 	border-left: 1px solid black;
+		 	border-right: 1px solid black;	
+		 }
+
+		 .top-bot {
+		 	border-top: 1px solid black;
+		 	border-bottom: 1px solid black;
+		 }
+		 .container {
+		 	position: absolute;
+  			left: 50%;
+  			top: 50%;
+			transform: translate(-50%, -50%);
+		 }
+
+		 h1 {
+		 	text-align: center;
+		 }
+		 
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1> TIC TAC TOE </h1>
+		<table>
+			<tr>
+				<td></td>
+				<td class=" left-right"></td>
+				<td ></td>
+			</tr>
+			<tr>
+				<td class="top-bot "></td>
+				<td class="top-bot left-right""></td>
+				<td class="top-bot "></td>
+			</tr>
+			<tr>
+				<td ></td>
+				<td class=" left-right"></td>
+				<td ></td>
+			</tr>
+
+		</table>
+	</div>
+
+</body>
+</html>
